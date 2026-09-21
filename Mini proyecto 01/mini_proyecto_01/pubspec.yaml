@@ -1,0 +1,28 @@
+name: mini_proyecto_01
+description: "Mini Proyecto 01 - Calculadora de IMC"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/images/bajo.png
+    - assets/images/normal.png
+    - assets/images/obesidad.png
+    - assets/images/grado1.png
+    - assets/images/grado2.png
+    - assets/images/grado3.png
